@@ -1,0 +1,232 @@
+/*removing automatic padding and margin*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*adding background to body*/
+body{
+    background-color: rgb(249, 249, 249);
+}
+/*nav bar properties*/
+.header{
+    height: 56px;
+    width: 100%;
+    background-color: #2874f0;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+/*link under the logo flipkart*/
+.header a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 900;
+    font-style: italic;
+    display: block;
+    font-size: 11px;
+    position: relative;
+    top: -5px;
+
+}
+/*logo properties*/
+.logo{
+    display: inline-block;
+    margin: 10px;  
+}
+/*color of the plus symbol */
+.plus-color{
+    color: #ffe500; 
+    font-weight: 500;
+    font-style: italic;
+}
+/*Div for the search bar and its properties */
+.search{
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    display: flex;
+    margin: 10px;
+    padding:9px;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.23);
+    margin-left: -1px;
+    border-radius: 2px;
+}
+/*setting the search input box*/
+.search input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 17px;   
+}/*changing the color of the search icon*/
+.search i{
+    color: #2874f0;
+}
+/*properties of login button div*/
+.button{
+    background-color: white;
+    height: 22px;
+    width: 7%;
+    margin: 14px;
+    padding: 3px;
+    margin-left: 30px;
+   
+}
+/*properties of login link*/
+.button a{
+    margin: 3px;
+    color: #2874f0;
+    font-weight: 900;
+    font-family: system-ui;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+/*the links in navbar become a seller etc */
+.navlink{
+   margin-left: 20px;
+    display: flex;
+}
+/*their properties */
+.navlink a{
+    margin: 25px 30px;
+    font-size: 15px;
+    font-family:  sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+/*size of the dropdown arrow icon*/
+.angle i{
+    font-size: 10px;
+}
+.headBar{
+    height: 30px;
+    width: 100%;
+    margin-top: -10px;
+    box-shadow:  1px 1px 0 rgba(0,0,0,.16);
+    background-color: white;
+}
+.content{
+    margin: 20px;
+    margin-left: 7%;
+}
+.content a{
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 550;
+}
+.content a:hover{
+    color: #2874f0;
+}
+.content i{
+    font-size: 10px;
+    color: #797e85be;
+}
+#h2{
+    margin: 20px 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 550;
+}
+.main{
+    height: fit-content;
+    width: max-content;
+    background-color: #ffffff;
+    box-shadow:  0px 0px 5px rgba(0,0,0,.16);
+    margin: 10px;
+    margin-block: -10px; 
+    display: flex;
+}
+.realme{
+    width: fit-content;
+    text-align: center;
+    margin: 30px 30px; 
+   
+}
+.realme img{
+    height: 100px;
+    width: 150px;
+}
+.realme a{
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 550;  
+}
+.realme a:hover{
+    color: #2874f0;
+}
+.subHead{
+    height: fit-content;
+    width: 1470px;
+    background-color: #ffffff;
+    box-shadow:  0px 0px 5px rgba(0,0,0,.16);
+    margin: 10px; 
+    display: flex;
+    justify-content: space-between;
+}
+.subHead h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin: 10px;
+}
+.subHead p{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 30px;
+    margin: 10px;
+    color: #5f646d96;
+}
+.subHead button{
+    height: 35px;
+    width: 90px;
+    margin: 20px;
+    background-color: #2874f0;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    box-shadow:  0px 0px 5px rgba(0,0,0,.16);
+}
+.mobilePrice{
+    height: fit-content;
+    width: 1470px;
+    background-color: #ffffff;
+    box-shadow:  0px 0px 5px rgba(0,0,0,.16);
+    margin: 10px;
+    margin-block: -10px;
+    display: flex;
+}
+.mobile1{
+    margin: 20px 50px;
+    text-align: center;
+    display: block;
+}
+.green{
+    color: rgba(0, 128, 0, 0.692);
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.mobile1 p{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.rate{
+    color: #5f646d9f;
+}
+.end{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+}
+
+    
+
